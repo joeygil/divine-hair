@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header";
 import { motion } from "framer-motion";
 import { UilTrophy } from "@iconscout/react-unicons";
+import Footer from "./Footer";
 
 const Home = () => {
   return (
@@ -88,6 +89,10 @@ const Home = () => {
           </ul>
         </motion.div>
       </div>
+      <div className="footer-posi">
+
+      </div>
+  
     </>
   );
 };

@@ -78,9 +78,14 @@ body {
 
   .contact-page {
     flex-direction: column;
+    width: 80%;
   }
 
   .mob-team-pics {
     display: block;
+  }
+
+  .footer-posi {
+    height: 50vh;
   }
 }
