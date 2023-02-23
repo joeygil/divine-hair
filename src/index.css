@@ -1,3 +1,86 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background-color: #f3efef;
+  color: #12100e;
+  font-family: arbotek, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.mob-team-pics {
+  display: none;
+}
+
+.navigation-button {
+  color: white;
+}
+
+.team-title-text {
+  font-size: 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .home-content {
+    flex-direction: column;
+  }
+
+  .content-items {
+    width: 90%;
+  }
+
+  .address-text {
+    font-size: 1.3rem;
+    padding: 5px 20px;
+  }
+
+  .menu-button {
+    display: inline;
+  }
+
+  .socials {
+    display: none;
+  }
+
+  .home-content:nth-child(3) {
+    width: 100%;
+  }
+
+  .home-main-banner {
+    display: none;
+  }
+
+  .home-mob-banner {
+    display: block;
+  }
+
+  .navigation-button {
+    display: none;
+  }
+
+  .nav-options {
+    display: none;
+  }
+
+  .award-title {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    scale: 0.9;
+    font-size: 0.85em;
+  }
+
+  .team-work {
+    display: none;
+  }
+
+  .contact-page {
+    flex-direction: column;
+  }
+
+  .mob-team-pics {
+    display: block;
+  }
+}

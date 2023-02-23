@@ -1,8 +1,14 @@
+import AnimatedRoutes from "./components/AnimatedRoutes";
+import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
+
 function App() {
   return (
-    <div className="App">
-      <h1>I'm an app</h1>
-    </div>
+    <>
+      <ScrollToTop />
+      <AnimatedRoutes />
+      <Footer />
+    </>
   );
 }
 
