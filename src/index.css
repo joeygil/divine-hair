@@ -88,4 +88,8 @@ body {
   .footer-posi {
     height: 50vh;
   }
+
+  .footer-items {
+    font-size: 1.4rem;
+  }
 }
