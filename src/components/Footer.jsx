@@ -9,7 +9,9 @@ const Footer = () => {
             <UilFacebook size="50" color="white" />
             <UilInstagramAlt size="50" color="white" />
             <p className="footer-items text-5xl text-white">01423 864755</p>
-            <p className="footer-items text-3xl text-white">info@divinehair.com</p>
+            <p className="footer-items-off text-3xl text-white">
+              info@divinehair.com
+            </p>
           </div>
         </div>
       </div>

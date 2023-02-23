@@ -92,4 +92,8 @@ body {
   .footer-items {
     font-size: 1.4rem;
   }
+
+  .footer-items-off {
+    display: none;
+  }
 }
